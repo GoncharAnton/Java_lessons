@@ -6,9 +6,10 @@ public class sumFromOneToN {
 
 	public static void main(String[] args) {
 		System.out.println("This app return sum of integer value from 1 to  N!");
-		int a = 0, b;
+		int b;
 		b = filling();
 		System.out.println("the sum fro 0 to " + b + " is " + sum(b));
+		
 	}
 	//checking correct enter value
 	public static int filling(){
@@ -22,6 +23,7 @@ public class sumFromOneToN {
 				System.out.println("wrong value, please read instruction & try again!");
 		}while((b <= 0)||(b > 100));
 		System.out.println("Nice)");
+		in.close();
 		return b;
 	}
 	// sum integer value from 1 to N
