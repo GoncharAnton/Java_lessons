@@ -17,7 +17,7 @@ public class arrayOdd {
 			array[a] = var;
 		}
 		
-		//print add value
+		//print odd value
 		System.out.println("here is odd value!");
 		for(int a = 0; a < size; a++){
 			if((array[a] % 2)!= 0)
